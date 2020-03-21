@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350EAF321F82703500DD4F82 /* WorkingDaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350EAF311F82703500DD4F82 /* WorkingDaysTableViewController.swift */; };
+		350EAF341F82710C00DD4F82 /* Models, extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350EAF331F82710C00DD4F82 /* Models, extensions.swift */; };
+		350F71CB20057C9C00B88254 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350F71CA20057C9C00B88254 /* FirstViewController.swift */; };
+		352893861F828A9500433A88 /* WorkDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352893851F828A9500433A88 /* WorkDayCell.swift */; };
+		353553F720192357007B3E07 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353553F620192357007B3E07 /* GoogleMobileAds.framework */; };
+		353B2B2E1FFFCF080048854F /* MajorTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353B2B2D1FFFCF080048854F /* MajorTabBarController.swift */; };
+		356B6DCF1F8198050071AA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356B6DCE1F8198050071AA8E /* AppDelegate.swift */; };
+		356B6DD11F8198050071AA8E /* AddSubjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356B6DD01F8198050071AA8E /* AddSubjectController.swift */; };
+		356B6DD41F8198050071AA8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356B6DD21F8198050071AA8E /* Main.storyboard */; };
+		356B6DD91F8198050071AA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356B6DD71F8198050071AA8E /* LaunchScreen.storyboard */; };
+		356B6DE41F8198060071AA8E /* School_Class_SceduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356B6DE31F8198060071AA8E /* School_Class_SceduleTests.swift */; };
+		357F670A1FE1DD0100DBDF18 /* Subject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F67081FE1DD0100DBDF18 /* Subject+CoreDataClass.swift */; };
+		357F670B1FE1DD0100DBDF18 /* Subject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357F67091FE1DD0100DBDF18 /* Subject+CoreDataProperties.swift */; };
+		3593ABCB20081CBC00DCEE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3593ABCA20081CBC00DCEE8B /* Assets.xcassets */; };
+		3598364C20191AEF00525D6A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3598364B20191AEF00525D6A /* GoogleService-Info.plist */; };
+		35A0758B20058A5600314722 /* FirstWalkthroughController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A0758A20058A5600314722 /* FirstWalkthroughController.swift */; };
+		35A1C6181FE6BEA2007C78F9 /* ChooseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A1C6161FE6BEA2007C78F9 /* ChooseTableViewController.swift */; };
+		35A5FD001F841BE400C2C5B8 /* SubjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A5FCFF1F841BE400C2C5B8 /* SubjectsTableViewController.swift */; };
+		35A5FD021F841F2500C2C5B8 /* SubjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A5FD011F841F2500C2C5B8 /* SubjectTableViewCell.swift */; };
+		35BD057D1FE6C07700E3226C /* ChooseOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD057B1FE6C07700E3226C /* ChooseOptionCell.swift */; };
+		35BD057E1FE6C07700E3226C /* ChooseOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BD057C1FE6C07700E3226C /* ChooseOptionCell.xib */; };
+		35C7CB9D1FFAB8D3008A103F /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C7CB9C1FFAB8D3008A103F /* MainTabBar.swift */; };
+		35C822891FCB1B920022F57A /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C822881FCB1B920022F57A /* PageCell.swift */; };
+		35C90C1D1FE81C11006C011D /* DailyOrNotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C90C1B1FE81C11006C011D /* DailyOrNotCell.swift */; };
+		35C90C1E1FE81C11006C011D /* DailyOrNotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C90C1C1FE81C11006C011D /* DailyOrNotCell.xib */; };
+		35C97D231FE1ADED00239D2A /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C97D221FE1ADED00239D2A /* PersistanceService.swift */; };
+		35CA2F9F1FC0C8D800EFA072 /* FirstNotificationTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CA2F9E1FC0C8D800EFA072 /* FirstNotificationTime.swift */; };
+		35CC81421FC97D7500739D25 /* WalkthroughController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC81411FC97D7500739D25 /* WalkthroughController.swift */; };
+		35D1823D1FD9C37900C0F221 /* DailyOrTomorrowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D1823C1FD9C37900C0F221 /* DailyOrTomorrowController.swift */; };
+		35D8408C1FF144030047CFEE /* ThemeColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D8408B1FF144030047CFEE /* ThemeColors.xcassets */; };
+		35D9B8161FDAA7F700815C5E /* School Class Schedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35D9B8141FDAA7F700815C5E /* School Class Schedule.xcdatamodeld */; };
+		4C5D02A5BA15D4284B08553B /* Pods_School_Class_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31DD4BBE757C16A2030D5BB /* Pods_School_Class_Reminder.framework */; };
+		59E2A73B22B776D6B037739C /* Pods_School_Class_ReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162F8C6B4842584929BE7238 /* Pods_School_Class_ReminderTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		356B6DE01F8198060071AA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 356B6DC31F8198050071AA8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 356B6DCA1F8198050071AA8E;
+			remoteInfo = "School Class Scedule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		162F8C6B4842584929BE7238 /* Pods_School_Class_ReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_School_Class_ReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E70C971B055500BEE1EDA58 /* Pods-School Class Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-School Class Reminder.release.xcconfig"; path = "Pods/Target Support Files/Pods-School Class Reminder/Pods-School Class Reminder.release.xcconfig"; sourceTree = "<group>"; };
+		2B48F03A29AEFA5830ACAF1B /* Pods-School Class ReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-School Class ReminderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-School Class ReminderTests/Pods-School Class ReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		350EAF311F82703500DD4F82 /* WorkingDaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingDaysTableViewController.swift; sourceTree = "<group>"; };
+		350EAF331F82710C00DD4F82 /* Models, extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models, extensions.swift"; sourceTree = "<group>"; };
+		350F71CA20057C9C00B88254 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		352893851F828A9500433A88 /* WorkDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDayCell.swift; sourceTree = "<group>"; };
+		353553F620192357007B3E07 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		353B2B2D1FFFCF080048854F /* MajorTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorTabBarController.swift; sourceTree = "<group>"; };
+		356B6DCB1F8198050071AA8E /* School Class Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "School Class Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		356B6DCE1F8198050071AA8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		356B6DD01F8198050071AA8E /* AddSubjectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubjectController.swift; sourceTree = "<group>"; };
+		356B6DD31F8198050071AA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		356B6DD81F8198050071AA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		356B6DDA1F8198050071AA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356B6DDF1F8198060071AA8E /* School Class ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "School Class ReminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		356B6DE31F8198060071AA8E /* School_Class_SceduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_Class_SceduleTests.swift; sourceTree = "<group>"; };
+		356B6DE51F8198060071AA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357F67081FE1DD0100DBDF18 /* Subject+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Subject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		357F67091FE1DD0100DBDF18 /* Subject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Subject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3593ABCA20081CBC00DCEE8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3598364B20191AEF00525D6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		35A0758A20058A5600314722 /* FirstWalkthroughController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWalkthroughController.swift; sourceTree = "<group>"; };
+		35A1C6161FE6BEA2007C78F9 /* ChooseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTableViewController.swift; sourceTree = "<group>"; };
+		35A5FCFF1F841BE400C2C5B8 /* SubjectsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsTableViewController.swift; sourceTree = "<group>"; };
+		35A5FD011F841F2500C2C5B8 /* SubjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectTableViewCell.swift; sourceTree = "<group>"; };
+		35BD057B1FE6C07700E3226C /* ChooseOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseOptionCell.swift; sourceTree = "<group>"; };
+		35BD057C1FE6C07700E3226C /* ChooseOptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseOptionCell.xib; sourceTree = "<group>"; };
+		35BF91731FA4BE4B00F0D82C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		35C7CB9C1FFAB8D3008A103F /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		35C822881FCB1B920022F57A /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		35C90C1B1FE81C11006C011D /* DailyOrNotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyOrNotCell.swift; sourceTree = "<group>"; };
+		35C90C1C1FE81C11006C011D /* DailyOrNotCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyOrNotCell.xib; sourceTree = "<group>"; };
+		35C97D221FE1ADED00239D2A /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
+		35CA2F9E1FC0C8D800EFA072 /* FirstNotificationTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstNotificationTime.swift; sourceTree = "<group>"; };
+		35CC81411FC97D7500739D25 /* WalkthroughController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughController.swift; sourceTree = "<group>"; };
+		35D1823C1FD9C37900C0F221 /* DailyOrTomorrowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyOrTomorrowController.swift; sourceTree = "<group>"; };
+		35D8408B1FF144030047CFEE /* ThemeColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ThemeColors.xcassets; sourceTree = "<group>"; };
+		35D9B8151FDAA7F700815C5E /* SchoolClassSchedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolClassSchedule.xcdatamodel; sourceTree = "<group>"; };
+		8BE8ECA7A31615122CB47716 /* Pods-School Class ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-School Class ReminderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-School Class ReminderTests/Pods-School Class ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E31DD4BBE757C16A2030D5BB /* Pods_School_Class_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_School_Class_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7CC84C356BA4A5F3E15DD6 /* Pods-School Class Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-School Class Reminder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-School Class Reminder/Pods-School Class Reminder.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		356B6DC81F8198050071AA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353553F720192357007B3E07 /* GoogleMobileAds.framework in Frameworks */,
+				4C5D02A5BA15D4284B08553B /* Pods_School_Class_Reminder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356B6DDC1F8198060071AA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E2A73B22B776D6B037739C /* Pods_School_Class_ReminderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356B6DC21F8198050071AA8E = {
+			isa = PBXGroup;
+			children = (
+				356B6DCD1F8198050071AA8E /* School Class Reminder */,
+				356B6DE21F8198060071AA8E /* School Class ReminderTests */,
+				356B6DCC1F8198050071AA8E /* Products */,
+				71EE8CD45576274BBA7DF8D7 /* Pods */,
+				66378C7DE79487FC2507DD14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		356B6DCC1F8198050071AA8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				356B6DCB1F8198050071AA8E /* School Class Reminder.app */,
+				356B6DDF1F8198060071AA8E /* School Class ReminderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		356B6DCD1F8198050071AA8E /* School Class Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				353553F620192357007B3E07 /* GoogleMobileAds.framework */,
+				350F71CA20057C9C00B88254 /* FirstViewController.swift */,
+				35A0758A20058A5600314722 /* FirstWalkthroughController.swift */,
+				356FCDCA1FE5783F0027E4F8 /* New functionality */,
+				35CC81441FC9828300739D25 /* Main Stuff */,
+				356B6DD21F8198050071AA8E /* Main.storyboard */,
+				3593ABCA20081CBC00DCEE8B /* Assets.xcassets */,
+				35D8408B1FF144030047CFEE /* ThemeColors.xcassets */,
+				350EAF331F82710C00DD4F82 /* Models, extensions.swift */,
+				356B6DDA1F8198050071AA8E /* Info.plist */,
+				3598364B20191AEF00525D6A /* GoogleService-Info.plist */,
+				35E9C9C51FEDB95800DB1D30 /* crap classes */,
+				35D662261FEC6D3400965E0E /* default gluposti */,
+			);
+			path = "School Class Reminder";
+			sourceTree = "<group>";
+		};
+		356B6DE21F8198060071AA8E /* School Class ReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				356B6DE31F8198060071AA8E /* School_Class_SceduleTests.swift */,
+				356B6DE51F8198060071AA8E /* Info.plist */,
+			);
+			path = "School Class ReminderTests";
+			sourceTree = "<group>";
+		};
+		356FCDCA1FE5783F0027E4F8 /* New functionality */ = {
+			isa = PBXGroup;
+			children = (
+				35D1823C1FD9C37900C0F221 /* DailyOrTomorrowController.swift */,
+				35A1C6161FE6BEA2007C78F9 /* ChooseTableViewController.swift */,
+			);
+			path = "New functionality";
+			sourceTree = "<group>";
+		};
+		356FCDD11FE58EF70027E4F8 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				35C822881FCB1B920022F57A /* PageCell.swift */,
+				35C90C1B1FE81C11006C011D /* DailyOrNotCell.swift */,
+				35C90C1C1FE81C11006C011D /* DailyOrNotCell.xib */,
+				35BD057B1FE6C07700E3226C /* ChooseOptionCell.swift */,
+				35BD057C1FE6C07700E3226C /* ChooseOptionCell.xib */,
+				352893851F828A9500433A88 /* WorkDayCell.swift */,
+				35A5FD011F841F2500C2C5B8 /* SubjectTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		35CC81431FC9825500739D25 /* firstNotificationStuff */ = {
+			isa = PBXGroup;
+			children = (
+				35CA2F9E1FC0C8D800EFA072 /* FirstNotificationTime.swift */,
+				35CC81411FC97D7500739D25 /* WalkthroughController.swift */,
+			);
+			path = firstNotificationStuff;
+			sourceTree = "<group>";
+		};
+		35CC81441FC9828300739D25 /* Main Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				350EAF311F82703500DD4F82 /* WorkingDaysTableViewController.swift */,
+				35A5FCFF1F841BE400C2C5B8 /* SubjectsTableViewController.swift */,
+				356B6DD01F8198050071AA8E /* AddSubjectController.swift */,
+				35CC81431FC9825500739D25 /* firstNotificationStuff */,
+			);
+			path = "Main Stuff";
+			sourceTree = "<group>";
+		};
+		35D662261FEC6D3400965E0E /* default gluposti */ = {
+			isa = PBXGroup;
+			children = (
+				356B6DCE1F8198050071AA8E /* AppDelegate.swift */,
+				35D9B8141FDAA7F700815C5E /* School Class Schedule.xcdatamodeld */,
+				356B6DD71F8198050071AA8E /* LaunchScreen.storyboard */,
+				35BF91731FA4BE4B00F0D82C /* GoogleService-Info.plist */,
+			);
+			path = "default gluposti";
+			sourceTree = "<group>";
+		};
+		35D662271FEC6D6C00965E0E /* CoreData Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				35C97D221FE1ADED00239D2A /* PersistanceService.swift */,
+				357F67091FE1DD0100DBDF18 /* Subject+CoreDataProperties.swift */,
+				357F67081FE1DD0100DBDF18 /* Subject+CoreDataClass.swift */,
+			);
+			path = "CoreData Stuff";
+			sourceTree = "<group>";
+		};
+		35E9C9C51FEDB95800DB1D30 /* crap classes */ = {
+			isa = PBXGroup;
+			children = (
+				356FCDD11FE58EF70027E4F8 /* TableViewCells */,
+				35D662271FEC6D6C00965E0E /* CoreData Stuff */,
+				353B2B2D1FFFCF080048854F /* MajorTabBarController.swift */,
+				35C7CB9C1FFAB8D3008A103F /* MainTabBar.swift */,
+			);
+			name = "crap classes";
+			path = "Main Stuff/crap classes";
+			sourceTree = "<group>";
+		};
+		66378C7DE79487FC2507DD14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E31DD4BBE757C16A2030D5BB /* Pods_School_Class_Reminder.framework */,
+				162F8C6B4842584929BE7238 /* Pods_School_Class_ReminderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71EE8CD45576274BBA7DF8D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE7CC84C356BA4A5F3E15DD6 /* Pods-School Class Reminder.debug.xcconfig */,
+				1E70C971B055500BEE1EDA58 /* Pods-School Class Reminder.release.xcconfig */,
+				8BE8ECA7A31615122CB47716 /* Pods-School Class ReminderTests.debug.xcconfig */,
+				2B48F03A29AEFA5830ACAF1B /* Pods-School Class ReminderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		356B6DCA1F8198050071AA8E /* School Class Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356B6DE81F8198060071AA8E /* Build configuration list for PBXNativeTarget "School Class Reminder" */;
+			buildPhases = (
+				76366997CDF9EE2DED3923C8 /* [CP] Check Pods Manifest.lock */,
+				356B6DC71F8198050071AA8E /* Sources */,
+				356B6DC81F8198050071AA8E /* Frameworks */,
+				356B6DC91F8198050071AA8E /* Resources */,
+				F43FDB3DF415759035E4D204 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "School Class Reminder";
+			productName = "School Class Scedule";
+			productReference = 356B6DCB1F8198050071AA8E /* School Class Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		356B6DDE1F8198060071AA8E /* School Class ReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356B6DEB1F8198060071AA8E /* Build configuration list for PBXNativeTarget "School Class ReminderTests" */;
+			buildPhases = (
+				955662401A0E6B6B4E5E50C9 /* [CP] Check Pods Manifest.lock */,
+				356B6DDB1F8198060071AA8E /* Sources */,
+				356B6DDC1F8198060071AA8E /* Frameworks */,
+				356B6DDD1F8198060071AA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				356B6DE11F8198060071AA8E /* PBXTargetDependency */,
+			);
+			name = "School Class ReminderTests";
+			productName = "School Class SceduleTests";
+			productReference = 356B6DDF1F8198060071AA8E /* School Class ReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		356B6DC31F8198050071AA8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					356B6DCA1F8198050071AA8E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					356B6DDE1F8198060071AA8E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 356B6DCA1F8198050071AA8E;
+					};
+				};
+			};
+			buildConfigurationList = 356B6DC61F8198050071AA8E /* Build configuration list for PBXProject "School Class Reminder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 356B6DC21F8198050071AA8E;
+			productRefGroup = 356B6DCC1F8198050071AA8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				356B6DCA1F8198050071AA8E /* School Class Reminder */,
+				356B6DDE1F8198060071AA8E /* School Class ReminderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		356B6DC91F8198050071AA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356B6DD91F8198050071AA8E /* LaunchScreen.storyboard in Resources */,
+				3598364C20191AEF00525D6A /* GoogleService-Info.plist in Resources */,
+				35C90C1E1FE81C11006C011D /* DailyOrNotCell.xib in Resources */,
+				35BD057E1FE6C07700E3226C /* ChooseOptionCell.xib in Resources */,
+				35D8408C1FF144030047CFEE /* ThemeColors.xcassets in Resources */,
+				356B6DD41F8198050071AA8E /* Main.storyboard in Resources */,
+				3593ABCB20081CBC00DCEE8B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356B6DDD1F8198060071AA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76366997CDF9EE2DED3923C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-School Class Reminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		955662401A0E6B6B4E5E50C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-School Class ReminderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43FDB3DF415759035E4D204 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-School Class Reminder/Pods-School Class Reminder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-School Class Reminder/Pods-School Class Reminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		356B6DC71F8198050071AA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C90C1D1FE81C11006C011D /* DailyOrNotCell.swift in Sources */,
+				35CC81421FC97D7500739D25 /* WalkthroughController.swift in Sources */,
+				356B6DD11F8198050071AA8E /* AddSubjectController.swift in Sources */,
+				35A1C6181FE6BEA2007C78F9 /* ChooseTableViewController.swift in Sources */,
+				35D9B8161FDAA7F700815C5E /* School Class Schedule.xcdatamodeld in Sources */,
+				35BD057D1FE6C07700E3226C /* ChooseOptionCell.swift in Sources */,
+				35A0758B20058A5600314722 /* FirstWalkthroughController.swift in Sources */,
+				350F71CB20057C9C00B88254 /* FirstViewController.swift in Sources */,
+				352893861F828A9500433A88 /* WorkDayCell.swift in Sources */,
+				357F670A1FE1DD0100DBDF18 /* Subject+CoreDataClass.swift in Sources */,
+				35C7CB9D1FFAB8D3008A103F /* MainTabBar.swift in Sources */,
+				356B6DCF1F8198050071AA8E /* AppDelegate.swift in Sources */,
+				357F670B1FE1DD0100DBDF18 /* Subject+CoreDataProperties.swift in Sources */,
+				353B2B2E1FFFCF080048854F /* MajorTabBarController.swift in Sources */,
+				35C97D231FE1ADED00239D2A /* PersistanceService.swift in Sources */,
+				35D1823D1FD9C37900C0F221 /* DailyOrTomorrowController.swift in Sources */,
+				35A5FD021F841F2500C2C5B8 /* SubjectTableViewCell.swift in Sources */,
+				35CA2F9F1FC0C8D800EFA072 /* FirstNotificationTime.swift in Sources */,
+				35C822891FCB1B920022F57A /* PageCell.swift in Sources */,
+				350EAF341F82710C00DD4F82 /* Models, extensions.swift in Sources */,
+				35A5FD001F841BE400C2C5B8 /* SubjectsTableViewController.swift in Sources */,
+				350EAF321F82703500DD4F82 /* WorkingDaysTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356B6DDB1F8198060071AA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356B6DE41F8198060071AA8E /* School_Class_SceduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		356B6DE11F8198060071AA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 356B6DCA1F8198050071AA8E /* School Class Reminder */;
+			targetProxy = 356B6DE01F8198060071AA8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		356B6DD21F8198050071AA8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356B6DD31F8198050071AA8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		356B6DD71F8198050071AA8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356B6DD81F8198050071AA8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		356B6DE61F8198060071AA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		356B6DE71F8198060071AA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		356B6DE91F8198060071AA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7CC84C356BA4A5F3E15DD6 /* Pods-School Class Reminder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65XGT224L5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/School\\ Class\\ Reminder",
+					/Users/viksaa/Desktop/24.01/School,
+					Class,
+					Reminder/GoogleMobileAds.framework,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/School Class Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Viksaa.School-Class-SceduleCOPY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		356B6DEA1F8198060071AA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E70C971B055500BEE1EDA58 /* Pods-School Class Reminder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65XGT224L5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/School\\ Class\\ Reminder",
+					/Users/viksaa/Desktop/24.01/School,
+					Class,
+					Reminder/GoogleMobileAds.framework,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/School Class Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Viksaa.School-Class-SceduleCOPY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		356B6DEC1F8198060071AA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE8ECA7A31615122CB47716 /* Pods-School Class ReminderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHDB6AB2D3;
+				INFOPLIST_FILE = "School Class SceduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Viksaa.School-Class-SceduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School Class Reminder.temp_caseinsensitive_rename.app/School Class Reminder.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		356B6DED1F8198060071AA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B48F03A29AEFA5830ACAF1B /* Pods-School Class ReminderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHDB6AB2D3;
+				INFOPLIST_FILE = "School Class SceduleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Viksaa.School-Class-SceduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/School Class Reminder.temp_caseinsensitive_rename.app/School Class Reminder.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		356B6DC61F8198050071AA8E /* Build configuration list for PBXProject "School Class Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356B6DE61F8198060071AA8E /* Debug */,
+				356B6DE71F8198060071AA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356B6DE81F8198060071AA8E /* Build configuration list for PBXNativeTarget "School Class Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356B6DE91F8198060071AA8E /* Debug */,
+				356B6DEA1F8198060071AA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356B6DEB1F8198060071AA8E /* Build configuration list for PBXNativeTarget "School Class ReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356B6DEC1F8198060071AA8E /* Debug */,
+				356B6DED1F8198060071AA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35D9B8141FDAA7F700815C5E /* School Class Schedule.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35D9B8151FDAA7F700815C5E /* SchoolClassSchedule.xcdatamodel */,
+			);
+			currentVersion = 35D9B8151FDAA7F700815C5E /* SchoolClassSchedule.xcdatamodel */;
+			path = "School Class Schedule.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 356B6DC31F8198050071AA8E /* Project object */;
+}
